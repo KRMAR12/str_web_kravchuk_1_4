@@ -1,0 +1,785 @@
+ :root{
+    --primary-color: #e50914;
+    --dark-color: #141414;
+    --light-color: #f4f4f4;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  margin: 1%;
+  background-color: #000000;
+}
+h1 {
+    color: white;
+    font-family: Ubuntu;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    font-weight: 600;
+    font-size: 17px;
+}
+section {
+    display: grid;
+    place-items: center;
+}
+
+.gradient-text {
+    font-weight: bold;
+	background: linear-gradient(40deg, #bd61f1 0%, #8d2de1  31%, #c90cef  100%);
+	background-size: 300%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_text 3s ease-in-out infinite;
+	-moz-animation: animated_text 5s ease-in-out infinite;
+	-webkit-animation: animated_text 3s ease-in-out infinite;
+}
+@keyframes animated_text {
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
+}
+.main-content h1 {
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0 30px;
+    max-width: 800px;
+    line-height: 74.5px;
+    padding-left: 20px;
+}
+.main-content h3 {
+    color: white;
+    font-family: Garamond;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+.main-content p {
+    font-size: 19.2px;
+    font-weight: 300;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+.redirect {
+    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    width: 1250px;
+    height: 180px;
+    margin-top: 60px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+}
+.btn2 {
+    width: 300px;
+    height: 90px;
+    background-image: linear-gradient(40deg, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    padding: 30px 30px;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: center;
+    text-transform: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    display: block;
+    margin-right: 40px;
+}
+.btn2:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+.redirect_text h3 {
+    font-family: Garamond;
+    color: white;
+    width: 500px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+/* Home Page Styling */
+.main-content {
+    position: relative;
+    margin: 0 10%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.main-content h3 {
+    text-transform: uppercase;
+}
+.world-map {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.country_text {
+    position: relative;
+    display: flex;
+    left: 0;
+    width: 1000px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.country_text input {
+    vertical-align: middle;
+    padding-left: 10px;
+    width: 520px;
+    height: 36px;
+}
+.country_text_mobile {
+    visibility: collapse;
+}
+.country_text_mobile input {
+    vertical-align: middle;
+    padding-left: 10px;
+    width: 320px;
+    height: 36px;
+}
+.country_text_mobile button {
+    background-image: linear-gradient(40deg, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    padding: 11.8px 25px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+.btn {
+    width: 10%;
+    margin-left: 1%;
+    background-image: linear-gradient(40deg, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    padding: 11.5px 25px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+.btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+.main-content .btn-lg {
+    position: absolute;
+    right: 0;
+    bottom: -8vh;
+    padding: 0.5rem 1.2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    height: 36px;
+    width: 14rem;
+}
+.style-cards {
+    margin-bottom: 30px;
+    position: relative;
+}
+.style-cards h1 {
+    font-size: 3rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+.style-cards h3 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+.card-1 {
+    color: white;
+    grid-template-columns: 50%;
+    text-align: left;
+    align-items: center;
+    padding-right: 30px;
+}
+.card-1 img {
+    grid-column: 2/2;
+    grid-row: 1/2;
+    right: 0;
+    max-width: 22rem;
+    height: auto;
+    width: auto\9;
+    padding-top: 0px;
+    margin-bottom: 5rem;
+
+}
+.desc-1 {
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.desc-1 h1 {
+    white-space: nowrap;
+}
+.desc-1 h3 {
+    font-family: Garamond;
+}
+.card-2 {
+    color: white;
+    position: relative;
+    grid-template-columns: 50% 40%;
+    align-items: center;
+}
+.card-2 img {
+    max-width: 40rem;
+    height: auto;
+    width: auto\9;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.desc-2 {
+    color: white;
+    float: left;
+}
+.desc-2 h1 {
+    white-space: nowrap;
+}
+.desc-2 h3 {
+    font-family: Garamond;
+}
+a:link {
+    text-decoration: none;
+}
+.space {
+    width: 575px;
+}
+.space2 {
+    height: 50px;
+    width: 600px;
+}
+
+/*Search Page Styling */
+.search table {
+    background-color: black;
+}
+.searching {
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    padding: 10px 30px;
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.45);
+    transition: 0.7s;
+}
+.searching:hover {
+    background-color: white;
+    color: black;
+}
+
+/*Get Info Page Styling */
+.country-map {
+    float: left;
+    width: 50%;
+    margin: 80px;
+}
+.information-text p {
+    color: white;
+}
+.information-text h4 {
+    font-size: 26px;
+    margin: 20px;
+    padding-top: 30px;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.map-continue {
+    color: white;
+    font-size: 24px;
+    padding-left: 3rem;
+}
+
+/* Cryptocurrencies Page Styling */
+#table-header {
+  font-family: ubuntu;
+  margin-bottom: 2%;
+}
+#table {
+  height: 75vh;
+  overflow-y: scroll;
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+table {
+  width: 99%;
+  color: white;
+  margin: 0 auto;
+  overflow-x: auto;
+  background-color: #171717;
+  border-collapse: collapse;
+}
+table thead th {
+  top: 0;
+  height: 13vh;
+  position: sticky;
+  background-color: #171717;
+  border-collapse: collapse;
+  z-index: 9999;
+}
+thead {
+  position: sticky;
+  top: 0;
+  background: white;
+}
+.border {
+  height: 1px;
+  padding: 0;
+  background-color: white;
+}
+.head {
+  text-transform: uppercase;
+}
+th,
+td {
+  padding: 0.7%;
+  text-align: center;
+}
+.red {
+  color: rgb(245, 8, 8);
+}
+.green {
+  color: rgb(8, 161, 8);
+}
+table img {
+  width: 20%;
+}
+.main {
+  margin-top: 1%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  line-height: 1.5em;
+}
+
+/* Crypto Usage Page Styling */
+.usage {
+  color: #f3f3f3;
+}
+.usage h1 {
+  font-family: ubuntu;
+  text-transform: uppercase;
+}
+.usage article {
+  font-family: garamond;
+  font-size: 22px;
+}
+.images {
+  float: left;
+  margin-top: 8px;
+  width: 30%;
+}
+.images img {
+  display: block;
+  margin-top: 8%;
+  margin-left: 18%;
+  width: 70%;
+  height: auto;
+  border-image: linear-gradient(#ca27ff, #8200ff) 30;
+  border-width: 4px;
+  border-style: solid;
+}
+#concl {
+  margin-top: 5%;
+}
+.description ul {
+  display: inline-block;
+  width: 69%;
+}
+.description hr {
+  margin-top: 2%;
+  height: 3px;
+  border: none;
+  background: -webkit-linear-gradient(left, #ca27ff, #8200ff);
+}
+.description li {
+  font-size: large;
+  height: 20vh;
+  margin-top: 5%;
+  list-style-type: square;
+}
+#l3 {
+  margin-top: -1%;
+}
+#l5 {
+  margin-top: -1%;
+}
+.exchanges {
+  margin: 3%;
+  display: flex;
+  justify-content: space-around;
+}
+.exchanges a {
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.exchanges a img {
+  height: 120px;
+  width: 120px;
+  margin-top: 10%;
+  align-items: center;
+  border-radius: 30%;
+}
+.exchanges a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/* Navigation Bar Styling */
+header {
+  position: sticky;
+  top: 0;
+  height: 10vh;
+  background-color: #000000;
+  z-index: 10000;
+}
+header .wrapper {
+  width: 98%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo img {
+  height: 50px;
+  display: block;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  transition: left 0.3s;
+}
+.navbar.show {
+  left: 0 !important;
+}
+.hide-scroll {
+  overflow: hidden;
+}
+.navbar ul {
+  all: unset;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.navbar ul a {
+  --s: 0.1em; /* the thickness of the line */
+  --c: #ca27ff; /* the color */
+
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: var(--s);
+  background: linear-gradient(90deg, var(--c) 50%, black 0)
+      calc(100% - var(--_p, 0%)) / 200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) var(--s) no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  transition: 0.7s;
+}
+.navbar ul a:hover {
+  --_p: 100%;
+}
+.navbar ul a {
+  font-family: garamond;
+  cursor: pointer;
+  text-decoration: none;
+}
+.close-nav {
+  text-align: right;
+  margin-bottom: 20px;
+}
+.close-nav button {
+  all: unset;
+  background: #656565;
+  font-size: 42px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 3%;
+  border-radius: 3px;
+  color: #444444;
+}
+.close-nav button:hover {
+  color: #222222;
+  background: #6933b5;
+}
+.menu-bar button {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #909090;
+  height: 50px;
+  width: 50px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.menu-bar i {
+  display: block;
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000;
+}
+.menu-bar i::after {
+  display: block;
+  content: "";
+  border-top: 3px solid #010101;
+  margin: 6px 0;
+}
+.menu-bar button:hover {
+  background: #6933b5;
+}
+.menu-bar button:hover i {
+  border-color: #000000;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1100px) {
+  .logo {
+    margin-left: -1%;
+  }
+}
+
+/* Responsive Design For Crypto Usage Page */
+@media only screen and (max-width: 1100px) {
+  .images img {
+    margin-bottom: 10%;
+  }
+
+  #l3 {
+    margin-top: 0;
+  }
+  #l4 {
+    margin-top: 8%;
+  }
+  #l5 {
+    margin-top: 0%;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .exchanges a {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 5px 5px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .exchanges a img {
+    height: 40px;
+    width: 40px;
+    margin-top: 15%;
+    align-items: center;
+    border-radius: 30%;
+  }
+  .images {
+    float: left;
+
+    display: none;
+  }
+  .description ul {
+    margin-left: 5%;
+  }
+  .description li {
+    margin-top: 8%;
+  }
+  description li p {
+    display: inline-block;
+    margin-top: 20%;
+  }
+  #l1 {
+    margin-top: 4%;
+  }
+  #l2 {
+    margin-top: 4%;
+  }
+  #l3 {
+    margin-top: 0;
+  }
+  #l4 {
+    margin-top: 7%;
+  }
+  #l5 {
+    margin-top: 0;
+  }
+  .description ul {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .exchanges a {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 5px 5px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .exchanges a img {
+    height: 40px;
+    width: 40px;
+    margin-top: 15%;
+    align-items: center;
+    border-radius: 30%;
+  }
+  .images {
+    float: left;
+
+    display: none;
+  }
+  .description ul {
+    margin-left: 5%;
+  }
+  .description li {
+    margin-top: 8%;
+  }
+  description li p {
+    display: inline-block;
+    margin-top: 20%;
+  }
+  #l1 {
+    margin-top: 10%;
+  }
+  #l2 {
+    margin-top: 15%;
+  }
+  #l3 {
+    margin-top: 10%;
+  }
+  #l4 {
+    margin-top: 17%;
+  }
+  #l5 {
+    margin-top: 4%;
+  }
+  .description ul {
+    width: 90%;
+  }
+  .heading {
+    font-size: 25px;
+  }
+}
+
+/* Responsive Design For Navigation */
+@media (min-width: 770px) {
+  .navbar {
+    all: unset;
+    display: block;
+  }
+  .navbar ul {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .navbar ul a {
+    font-size: inherit;
+  }
+  .close-nav,
+  .menu-bar {
+    display: none;
+  }
+}
+
+/* Responsive Design For Home Page*/
+@media only screen and (max-width: 800px){
+    .countrytext input {
+        vertical-align: middle;
+        padding-left: 10px;
+        width: 320px;
+        height: 36px;
+    }
+    .card-1 img {
+        width: 70%;
+        margin-left: 7em;
+    }
+    .card-2 img {
+        width: 90%;
+        padding-top: 4em;
+    }
+    .desc-1,
+    .desc-2 {
+        position: relative;
+        margin: 0% 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 2em;
+        margin-right: 0em;
+    }
+    img {
+        width: 150%;
+    }
+}
+@media only screen and (min-width: 800px){
+    .card-1, .card-2 {
+        display: inline-grid;
+    }
+    .desc-1 {
+        padding-left: 180px;
+    }
+    .card-1 img {
+        margin-left: 13rem;
+    }
+    .card-2 h1 {
+        padding-right: 0;
+    }
+    .card-2 h3 {
+        padding-left: 5em;
+        padding-right: 20px;
+    }
+    .card-2{
+        text-align: right;
+    }
+}

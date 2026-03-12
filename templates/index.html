@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WhereCrypto</title>
+    {% load static %}
+    <link rel="icon" href="{% static 'images/logomark.png' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'style/style2.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'style/footerStyle.css' %}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+     <header>
+      <div class="wrapper">
+        <div class="logo">
+          <img src="{% static 'images/logo.png' %}" alt="WhereCrypto logo" />
+        </div>
+
+        <div class="navbar">
+          <div class="close-nav"><button>×</button></div>
+          <nav>
+            <ul>
+              <li class="current"><a href="{% url 'home' %}">Home</a></li>
+              <li><a href="{% url 'cryptocurrencies' %}">Cryptocurrencies</a></li>
+              <li><a href="{% url 'crypto_usage' %}">Crypto Usage</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="menu-bar">
+          <button><i></i></button>
+        </div>
+      </div>
+    </header>
+    
+    <main class="main">
+      <div class="main-content">
+        <h1>There are countries of <span class="gradient-text">crypto-future</span> here</h1>
+          <img src="{% static 'images/world_map.png' %}" alt="World Map" class="world-map">
+
+        {% if unknown_country %}
+          <h3>You have entered unknown country - {{ value }}</h3>
+
+        {% else %}
+          <h3>See your country on this map? Enter it here:</h3>
+
+        {% endif %}
+          <form method="get" action="{% url 'search' %}">
+              <div class="country_text" id="tu">
+                  <input type="text" placeholder="Enter your country here" name="search_country" id="inp_box"/>
+                  <button class="btn">Search</button>
+              </div>
+          </form>
+
+          <div class="country_text_mobile">
+              <input type="text" placeholder="Enter your country here">
+              <button>Search</button>
+          </div>
+        </div>
+
+        <section class="style-cards" >
+            <div class="card-1">
+                <div class="desc-1">
+                    <h1>Track the popularity!</h1>
+                    <h3>WhereCrypto shows the rank list of cryptocurrencies based on their usability and performance in the chosen country. With our service, users can quickly find the best suggestions on where to spend the crypto.</h3>
+                </div>
+                <img src="{% static 'images/earth.png' %}" alt="Earth">
+            </div>
+
+            <div class="card-2">
+                <div class="desc-2">
+                    <h1>Pay with crypto now!</h1>
+                    <h3>Cryptocurrency future is already near you. Using our service, you can find places in your country where you can pay with crypto for food, electronics, medicines, and many other goods.</h3>
+                </div>
+                <img src="{% static 'images/cup.png' %}" alt="Cup">
+            </div>
+        </section>
+
+       <section class="redirect_section">
+            <div class="redirect">
+                <div class="redirect_text">
+                    <h1>Ready for searching?</h1>
+                    <h3>Just press the button and type your desired country!</h3>
+                </div>
+                <div class="space"></div>
+                <a href="#" onclick="focusInput()" class="btn2" id="get_started">Get Started!</a>
+            </div>
+       </section>
+
+        <div class="space2"></div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+       <div class="row">
+         <div class="footer-col">
+           <h4 id="info">Projects Info</h4>
+           <ul>
+             <li><a href="#">About us</a></li>
+             <li><a href="#">privacy policy</a></li>
+           </ul>
+         </div>
+
+         <div class="footer-col">
+           <h4 id="help">Help</h4>
+           <ul>
+             <li><a href="#">FAQ</a></li>
+             <li><a href="#">How to use website</a></li>
+             <li><a href="#">What we can add</a></li>
+           </ul>
+         </div>
+
+         <div class="footer-col">
+           <h4 id="media">Social Media</h4>
+           <div class="social-links">
+             <a href="#"><i class="fa fa-facebook"></i></a>
+             <a href="#"><i class="fa fa-twitter"></i></a>
+             <a href="#"><i class="fa fa-instagram"></i></a>
+             <a href="https://t.me/WhereCryptoBot"><i class="fa fa-telegram"></i></a>
+           </div>
+         </div>
+       </div>
+      </div>
+    </footer>
+
+    <!-- Menu Bar Script -->
+     <script src="{% static 'scripts/ham_menu.js' %}"></script>
+  <!-- Buttons scripts -->
+    <script src="{% static 'scripts/buttons.js' %}"></script>
+  </body>
+</html>

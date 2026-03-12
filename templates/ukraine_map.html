@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhereCrypto</title>
+    {% load static %}
+    <link rel="icon" href="{% static 'images/logomark.png' %}">
+    <link rel= "stylesheet" type="text/css" href="{% static 'style/style2.css' %}">
+    <link rel= "stylesheet" type="text/css" href="{% static 'style/footerStyle.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm//vega@3.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm//vega-lite@2.4.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm//vega-embed@3.0"></script>
+</head>
+
+<body>
+    <header>
+      <div class="wrapper">
+        <div class="logo">
+          <img src="{% static 'images/logo.png' %}" alt="WhereCrypto logo" />
+        </div>
+
+        <div class="navbar">
+          <div class="close-nav"><button>×</button></div>
+          <nav>
+            <ul>
+              <li class="current"><a href="{% url 'home' %}">Home</a></li>
+              <li><a href="{% url 'cryptocurrencies' %}">Cryptocurrencies</a></li>
+              <li><a href="{% url 'crypto_usage' %}">Crypto Usage</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="menu-bar">
+          <button><i></i></button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+        <div class="main-content">
+            <h1 class="gradient-text">Map</h1>
+            {{map|safe}}
+        </div>
+
+        <div class="space2"></div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+       <div class="row">
+         <div class="footer-col">
+           <h4 id="info">Projects Info</h4>
+           <ul>
+             <li><a href="#">About us</a></li>
+             <li><a href="#">privacy policy</a></li>
+           </ul>
+         </div>
+
+         <div class="footer-col">
+           <h4 id="help">Help</h4>
+           <ul>
+             <li><a href="#">FAQ</a></li>
+             <li><a href="#">How to use website</a></li>
+             <li><a href="#">What we can add</a></li>
+           </ul>
+         </div>
+
+         <div class="footer-col">
+           <h4 id="media">Social Media</h4>
+           <div class="social-links">
+             <a href="#"><i class="fa fa-facebook"></i></a>
+             <a href="#"><i class="fa fa-twitter"></i></a>
+             <a href="#"><i class="fa fa-instagram"></i></a>
+             <a href="https://t.me/WhereCryptoBot"><i class="fa fa-telegram"></i></a>
+           </div>
+         </div>
+       </div>
+      </div>
+    </footer>
+</body>
+</html>
