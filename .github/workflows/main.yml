@@ -2,7 +2,7 @@ name: Deploy WhereCrypto to Azure
 
 on:
   push:
-    branches: [ "main" ] # Спрацьовує при пуші в main
+    branches: [ "main" ] 
 
 jobs:
   test-and-build:
@@ -22,7 +22,7 @@ jobs:
 
       - name: Run Unit Tests
         run: |
-          python manage.py test # Це закриває пункт 'автоматичне тестування'
+          python manage.py test 
 
       - name: Log in to Docker Hub (або Azure Registry)
         run: echo "Тут вводиться логін для докера"
