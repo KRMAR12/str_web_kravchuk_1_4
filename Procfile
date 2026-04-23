@@ -1,1 +1,1 @@
-web: gunicorn WhereCrypto.wsgi --log-file -
+web: gunicorn WhereCrypto.wsgi:application --bind 0.0.0.0:$PORT --timeout 120 --log-file -
