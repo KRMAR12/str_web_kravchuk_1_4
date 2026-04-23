@@ -1,0 +1,274 @@
+name,code,continent,fiats,voteAmount
+Paraguay,PY,Americas,PYG,306012
+Venezuela,VE,Americas,VES,199921
+Anguilla,AI,Americas,XCD,142361
+Ukraine,UA,Europe,UAH,67833
+United States,US,Americas,USD,66327
+Russia,RU,Europe,RUB,46930
+Zimbabwe,ZW,Africa,JPY,42712
+Zimbabwe,ZW,Africa,EUR,42712
+Zimbabwe,ZW,Africa,GBP,42712
+Zimbabwe,ZW,Africa,ZWB,42712
+Zimbabwe,ZW,Africa,USD,42712
+Zimbabwe,ZW,Africa,BWP,42712
+Zimbabwe,ZW,Africa,ZAR,42712
+Zimbabwe,ZW,Africa,INR,42712
+Zimbabwe,ZW,Africa,CNY,42712
+Brazil,BR,Americas,BRL,37077
+United Arab Emirates,AE,Asia,AED,29773
+India,IN,Asia,INR,26660
+Panama,PA,Americas,PAB,25236
+Panama,PA,Americas,USD,25236
+China,CN,Asia,CNY,23236
+Turkey,TR,Asia,TRY,22005
+Argentina,AR,Americas,ARS,20586
+Iran,IR,Asia,IRR,20391
+Nigeria,NG,Africa,NGN,19582
+United Kingdom,GB,Europe,GBP,19553
+Bangladesh,BD,Asia,BDT,19159
+Ecuador,EC,Americas,USD,19035
+Vietnam,VN,Asia,VND,18238
+Pakistan,PK,Asia,PKR,17141
+Cuba,CU,Americas,CUC,12465
+Cuba,CU,Americas,CUP,12465
+Germany,DE,Europe,EUR,9598
+Japan,JP,Asia,JPY,5380
+Indonesia,ID,Asia,IDR,4966
+Canada,CA,Americas,CAD,4380
+Mexico,MX,Americas,MXN,4026
+Australia,AU,Oceania,AUD,3559
+Singapore,SG,Asia,SGD,2613
+Switzerland,CH,Europe,CHF,2500
+Philippines,PH,Asia,PHP,2217
+South Africa,ZA,Africa,ZAR,1970
+France,FR,Europe,EUR,1829
+South Korea,KR,Asia,KRW,1748
+Honduras,HN,Americas,HNL,1693
+Saudi Arabia,SA,Asia,SAR,1638
+United States Minor Outlying Islands,UM,Americas,USD,1583
+Colombia,CO,Americas,COP,1446
+Portugal,PT,Europe,EUR,1416
+Thailand,TH,Asia,THB,1318
+Spain,ES,Europe,EUR,1238
+Morocco,MA,Africa,MAD,1187
+Qatar,QA,Asia,QAR,1179
+Malaysia,MY,Asia,MYR,1130
+Sri Lanka,LK,Asia,LKR,1118
+Italy,IT,Europe,EUR,1011
+Poland,PL,Europe,PLN,998
+Kazakhstan,KZ,Asia,KZT,880
+Bahamas,BS,Americas,BSD,860
+Bahamas,BS,Americas,USD,860
+Hong Kong,HK,Asia,HKD,761
+Costa Rica,CR,Americas,CRC,745
+Uruguay,UY,Americas,UYU,742
+Republic of the Congo,CG,Africa,XAF,615
+Netherlands,NL,Europe,EUR,610
+Romania,RO,Europe,RON,576
+Georgia,GE,Europe,GEL,570
+Malta,MT,Europe,EUR,560
+British Indian Ocean Territory,IO,Africa,USD,554
+Ghana,GH,Africa,GHS,496
+Guatemala,GT,Americas,GTQ,490
+Egypt,EG,Africa,EGP,456
+Sweden,SE,Europe,SEK,447
+Algeria,DZ,Africa,DZD,445
+Cambodia,KH,Asia,KHR,443
+Cambodia,KH,Asia,USD,443
+Cyprus,CY,Europe,EUR,438
+Finland,FI,Europe,EUR,426
+Chile,CL,Americas,CLP,425
+Estonia,EE,Europe,EUR,425
+Israel,IL,Asia,ILS,419
+Puerto Rico,PR,Americas,USD,404
+Belarus,BY,Europe,BYN,394
+Tonga,TO,Oceania,TOP,373
+Greece,GR,Europe,EUR,360
+Peru,PE,Americas,PEN,355
+Azerbaijan,AZ,Asia,AZN,332
+Dominican Republic,DO,Americas,DOP,326
+Myanmar,MM,Asia,MMK,323
+Saint Kitts and Nevis,KN,Americas,XCD,318
+Uzbekistan,UZ,Asia,UZS,318
+Kenya,KE,Africa,KES,298
+Hungary,HU,Europe,HUF,289
+Iraq,IQ,Asia,IQD,289
+Ethiopia,ET,Africa,ETB,287
+Tanzania,TZ,Africa,TZS,283
+New Zealand,NZ,Oceania,NZD,282
+Taiwan,TW,Asia,TWD,274
+Nicaragua,NI,Americas,NIO,268
+Senegal,SN,Africa,XOF,263
+Afghanistan,AF,Asia,AFN,243
+Somalia,SO,Africa,SOS,230
+Belgium,BE,Europe,EUR,225
+Tunisia,TN,Africa,TND,224
+Slovenia,SI,Europe,EUR,219
+Denmark,DK,Europe,DKK,216
+Palestine,PS,Asia,ILS,216
+Palestine,PS,Asia,JOD,216
+Palestine,PS,Asia,EGP,216
+Bolivia,BO,Americas,BOB,214
+Cameroon,CM,Africa,XAF,212
+Andorra,AD,Europe,EUR,206
+Czechia,CZ,Europe,CZK,204
+British Virgin Islands,VG,Americas,USD,200
+Niger,NE,Africa,XOF,200
+Lebanon,LB,Asia,LBP,192
+Norway,NO,Europe,NOK,192
+Austria,AT,Europe,EUR,185
+Mali,ML,Africa,XOF,185
+Bhutan,BT,Asia,INR,184
+Bhutan,BT,Asia,BTN,184
+United States Virgin Islands,VI,Americas,USD,183
+Nepal,NP,Asia,NPR,181
+Albania,AL,Europe,ALL,172
+American Samoa,AS,Oceania,USD,172
+North Korea,KP,Asia,KPW,169
+Bulgaria,BG,Europe,BGN,167
+Lithuania,LT,Europe,EUR,167
+Palau,PW,Oceania,USD,165
+Mongolia,MN,Asia,MNT,163
+Western Sahara,EH,Africa,MAD,160
+Western Sahara,EH,Africa,MRU,160
+Western Sahara,EH,Africa,DZD,160
+Haiti,HT,Americas,HTG,158
+Serbia,RS,Europe,RSD,158
+Ireland,IE,Europe,EUR,157
+Luxembourg,LU,Europe,EUR,157
+Uganda,UG,Africa,UGX,157
+Latvia,LV,Europe,EUR,156
+Marshall Islands,MH,Oceania,USD,156
+Botswana,BW,Africa,BWP,155
+Kosovo,XK,Europe,EUR,155
+Kuwait,KW,Asia,KWD,155
+Moldova,MD,Europe,MDL,154
+Turks and Caicos Islands,TC,Americas,USD,154
+Caribbean Netherlands,BQ,Americas,USD,153
+Namibia,NA,Africa,NAD,153
+Namibia,NA,Africa,ZAR,153
+Ivory Coast,CI,Africa,XOF,152
+Croatia,HR,Europe,HRK,151
+Liechtenstein,LI,Europe,CHF,151
+Jamaica,JM,Americas,JMD,150
+Yemen,YE,Asia,YER,150
+Iceland,IS,Europe,ISK,149
+Montenegro,ME,Europe,EUR,149
+Armenia,AM,Asia,AMD,147
+Kyrgyzstan,KG,Asia,KGS,146
+Monaco,MC,Europe,EUR,146
+Slovakia,SK,Europe,EUR,146
+Turkmenistan,TM,Asia,TMT,146
+Vatican City,VA,Europe,EUR,145
+Liberia,LR,Africa,LRD,144
+San Marino,SM,Europe,EUR,144
+Aruba,AW,Americas,AWG,143
+Bahrain,BH,Asia,BHD,143
+Burkina Faso,BF,Africa,XOF,143
+Cayman Islands,KY,Americas,KYD,143
+French Guiana,GF,Americas,EUR,143
+Greenland,GL,Americas,DKK,143
+Maldives,MV,Asia,MVR,143
+Northern Mariana Islands,MP,Oceania,USD,143
+"Saint Helena, Ascension and Tristan da Cunha",SH,Africa,GBP,143
+"Saint Helena, Ascension and Tristan da Cunha",SH,Africa,SHP,143
+South Sudan,SS,Africa,SSP,143
+Timor-Leste,TL,Asia,USD,143
+Tuvalu,TV,Oceania,AUD,143
+Tuvalu,TV,Oceania,TVD,143
+Benin,BJ,Africa,XOF,142
+DR Congo,CD,Africa,CDF,142
+Equatorial Guinea,GQ,Africa,XAF,142
+Gabon,GA,Africa,XAF,142
+Guam,GU,Oceania,USD,142
+Kiribati,KI,Oceania,AUD,142
+Kiribati,KI,Oceania,KID,142
+Laos,LA,Asia,LAK,142
+Libya,LY,Africa,LYD,142
+Madagascar,MG,Africa,MGA,142
+Oman,OM,Asia,OMR,142
+Réunion,RE,Africa,EUR,142
+Saint Barthélemy,BL,Americas,EUR,142
+Solomon Islands,SB,Oceania,SBD,142
+South Georgia,GS,Antarctic,SHP,142
+Svalbard and Jan Mayen,SJ,Europe,NOK,142
+Tokelau,TK,Oceania,NZD,142
+Åland Islands,AX,Europe,EUR,142
+Angola,AO,Africa,AOA,141
+Antigua and Barbuda,AG,Americas,XCD,141
+Belize,BZ,Americas,BZD,141
+Bosnia and Herzegovina,BA,Europe,BAM,141
+Burundi,BI,Africa,BIF,141
+Chad,TD,Africa,XAF,141
+Cook Islands,CK,Oceania,NZD,141
+Cook Islands,CK,Oceania,CKD,141
+Dominica,DM,Americas,XCD,141
+Falkland Islands,FK,Americas,FKP,141
+Faroe Islands,FO,Europe,FOK,141
+Faroe Islands,FO,Europe,DKK,141
+French Polynesia,PF,Oceania,XPF,141
+French Southern and Antarctic Lands,TF,Antarctic,EUR,141
+Gibraltar,GI,Europe,GIP,141
+Guernsey,GG,Europe,GGP,141
+Guernsey,GG,Europe,GBP,141
+Guinea,GN,Africa,GNF,141
+Guyana,GY,Americas,GYD,141
+Mauritius,MU,Africa,MUR,141
+Mozambique,MZ,Africa,MZN,141
+Saint Lucia,LC,Americas,XCD,141
+Sudan,SD,Africa,SDG,141
+Suriname,SR,Americas,SRD,141
+Tajikistan,TJ,Asia,TJS,141
+Togo,TG,Africa,XOF,141
+Wallis and Futuna,WF,Oceania,XPF,141
+Barbados,BB,Americas,BBD,140
+Bermuda,BM,Americas,BMD,140
+Brunei,BN,Asia,SGD,140
+Brunei,BN,Asia,BND,140
+Cape Verde,CV,Africa,CVE,140
+Comoros,KM,Africa,KMF,140
+Fiji,FJ,Oceania,FJD,140
+Guadeloupe,GP,Americas,EUR,140
+Isle of Man,IM,Europe,GBP,140
+Isle of Man,IM,Europe,IMP,140
+Jordan,JO,Asia,JOD,140
+Lesotho,LS,Africa,LSL,140
+Lesotho,LS,Africa,ZAR,140
+Macau,MO,Asia,MOP,140
+Malawi,MW,Africa,MWK,140
+Martinique,MQ,Americas,EUR,140
+Mauritania,MR,Africa,MRU,140
+Mayotte,YT,Africa,EUR,140
+Montserrat,MS,Americas,XCD,140
+Nauru,NR,Oceania,AUD,140
+New Caledonia,NC,Oceania,XPF,140
+Niue,NU,Oceania,NZD,140
+Norfolk Island,NF,Oceania,AUD,140
+North Macedonia,MK,Europe,MKD,140
+Papua New Guinea,PG,Oceania,PGK,140
+Pitcairn Islands,PN,Oceania,NZD,140
+Rwanda,RW,Africa,RWF,140
+Saint Martin,MF,Americas,EUR,140
+Saint Pierre and Miquelon,PM,Americas,EUR,140
+Saint Vincent and the Grenadines,VC,Americas,XCD,140
+Samoa,WS,Oceania,WST,140
+Seychelles,SC,Africa,SCR,140
+Sierra Leone,SL,Africa,SLL,140
+Sint Maarten,SX,Americas,ANG,140
+Syria,SY,Asia,SYP,140
+São Tomé and Príncipe,ST,Africa,STN,140
+Trinidad and Tobago,TT,Americas,TTD,140
+Vanuatu,VU,Oceania,VUV,140
+Zambia,ZM,Africa,ZMW,140
+Christmas Island,CX,Oceania,AUD,139
+Cocos (Keeling) Islands,CC,Oceania,AUD,139
+Curaçao,CW,Americas,ANG,139
+Djibouti,DJ,Africa,DJF,139
+Eritrea,ER,Africa,ERN,139
+Eswatini,SZ,Africa,SZL,139
+Eswatini,SZ,Africa,ZAR,139
+Gambia,GM,Africa,GMD,139
+Grenada,GD,Americas,XCD,139
+Guinea-Bissau,GW,Africa,XOF,139
+Jersey,JE,Europe,GBP,139
+Jersey,JE,Europe,JEP,139
